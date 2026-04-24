@@ -14,12 +14,12 @@ layout: default
     </p>
   </div>
 
-  <div style="max-width: 900px; margin: 0 auto 40px auto;">
+  <div class="row" style="display: flex; justify-content: center;">
     {% for post in paginator.posts %}
       {% include post-card.html %}
     {% endfor %}
-
-    {% include pagination.html %}
   </div>
+
+  {% include pagination.html %}
 
 </div>
