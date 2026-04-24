@@ -1,0 +1,33 @@
+<div style="max-width: 760px; margin: 0 auto 50px auto;">
+  <article style="background:#202329; border-radius:4px; overflow:hidden;">
+
+    {% if post.image %}
+      <a href="{{ post.url | prepend: site.baseurl }}">
+        <img src="{{ post.image | prepend: site.baseurl }}" 
+             alt="{{ post.title }}" 
+             style="width:100%; height:auto; display:block;">
+      </a>
+    {% endif %}
+
+    <div style="padding: 24px;">
+      <div style="margin-bottom: 12px;">
+        {% for tag in post.tags %}
+          <span style="border:1px solid #00bfa5; color:#00d6b4; padding:4px 8px; margin-right:6px; font-size:12px;">
+            {{ tag }}
+          </span>
+        {% endfor %}
+      </div>
+
+      <h2 style="margin-top: 0;">
+        <a href="{{ post.url | prepend: site.baseurl }}" style="color:#fff; text-decoration:none;">
+          {{ post.title }}
+        </a>
+      </h2>
+
+      <p style="color:#ddd; line-height:1.6;">
+        {{ post.excerpt | strip_html | truncate: 180 }}
+      </p>
+    </div>
+
+  </article>
+</div>
