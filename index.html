@@ -4,7 +4,7 @@ layout: default
 
 <div class="container">
 
-  <div style="max-width: 900px; margin: 60px auto 20px auto; text-align: center; color: #ccc; font-size: 16px; line-height: 1.8;">
+  <div style="max-width: 900px; margin: 60px auto 30px auto; text-align: center; color: #ccc; font-size: 16px; line-height: 1.8;">
     <p><strong>My work focuses on analyzing mortgage and financial data to move from insight to action:</strong></p>
 
     <p style="margin-top: 10px;">
@@ -14,17 +14,12 @@ layout: default
     </p>
   </div>
 
-  <div style="max-width: 1000px; margin: 0 auto;">
-    <div class="row">
-      <div class="col col-12 col-t-12">
-        <div class="row">
-          {% for post in paginator.posts %}
-            {% include post-card.html %}
-          {% endfor %}
-        </div>
-        {% include pagination.html %}
-      </div>
-    </div>
+  <div style="max-width: 900px; margin: 0 auto 40px auto;">
+    {% for post in paginator.posts %}
+      {% include post-card.html %}
+    {% endfor %}
+
+    {% include pagination.html %}
   </div>
 
 </div>
