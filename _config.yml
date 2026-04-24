@@ -9,7 +9,14 @@ plugins:
 #-------------------------------
 # General Site Settings
 title: Trent Edwards
-description: Data Analyst focused on mortgage and financial data using SQL and Tableau.
+description: >
+  Data Analyst specializing in mortgage and financial analytics, transforming data into actionable insights using SQL, Python, and Tableau.
+
+  My work focuses on analyzing mortgage and financial data to move from insight to action:
+
+  • Identifying trends in loan performance  
+  • Understanding drivers behind approval outcomes  
+  • Building tools to support operational decision-making and prioritization
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
