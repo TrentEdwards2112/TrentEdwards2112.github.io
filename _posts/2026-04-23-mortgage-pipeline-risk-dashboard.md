@@ -1,34 +1,43 @@
 ---
 layout: post
 title: Mortgage Loan Pipeline Risk & Prioritization Dashboard
-image: "/posts/pipeline_dashboard_thumb.png"
 tags: [Tableau, SQL, Data Analytics, Mortgage]
 ---
 
-This project provides an operational view of a mortgage loan pipeline, helping underwriting teams identify risk, prioritize work, and manage loan flow across stages.
-
 <img src="/img/posts/your-new-image.png" 
-     style="width:100%; max-height:500px; object-fit:cover; border-radius:6px;">
+     style="width:100%; border-radius:6px; margin-bottom:20px;">
+
+This project analyzes mortgage loan pipeline data to help underwriting teams identify risk, prioritize work, and manage loan flow across stages.
 
 ## Business Problem
 
-Underwriting teams need to quickly identify which loans require immediate attention while still managing overall pipeline volume efficiently.
+Underwriting teams must quickly identify high-risk and time-sensitive loans while maintaining steady pipeline throughput. Without clear visibility into risk drivers and bottlenecks, teams can struggle to prioritize effectively and meet critical deadlines.
 
 ## What This Dashboard Answers
 
-- Where is loan volume concentrated across the pipeline?
-- Which factors are driving urgency?
+- Where is risk concentrated across the pipeline?
+- What factors are driving loan urgency and delays?
 - Which loans should be prioritized first?
-- Where are bottlenecks forming by stage and priority tier?
+- Where are operational bottlenecks forming?
 
 ## Key Insight
 
-Aging Pipeline drives the largest workload, while LE Past Due loans represent the highest immediate operational risk.
+Aging pipeline loans drive the largest workload, while LE Past Due loans represent the highest immediate operational risk—indicating a need to balance volume management with time-sensitive prioritization.
 
 ## Tools Used
 
-- SQL (MySQL)
-- Tableau Public
+- SQL (MySQL) – data preparation and transformation
+- Tableau Public – visualization and dashboard design
+
+## Approach
+
+- Cleaned and structured loan-level data using SQL (MySQL)
+- Created derived fields to categorize risk, urgency, and pipeline stages
+- Designed visualizations in Tableau to highlight risk concentration, drivers of urgency, and operational bottlenecks
+
+## Dashboard Overview
+
+![Dashboard](/img/posts/pipeline_dashboard.png)
 
 ## Live Dashboard
 
