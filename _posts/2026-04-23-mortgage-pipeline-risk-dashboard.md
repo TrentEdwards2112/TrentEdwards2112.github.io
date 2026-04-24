@@ -1,7 +1,8 @@
 ---
 layout: post
 title: Mortgage Loan Pipeline Risk & Prioritization Dashboard
-image: "/posts/your-new-image.png"
+<img src="/img/posts/your-new-image.png" 
+     style="width:100%; max-width:1100px; display:block; margin: 0 auto 30px auto; border-radius:6px;">
 tags: [Tableau, SQL, Data Analytics, Mortgage]
 ---
 
