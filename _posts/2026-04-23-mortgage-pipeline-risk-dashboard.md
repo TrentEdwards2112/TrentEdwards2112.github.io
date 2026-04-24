@@ -1,13 +1,14 @@
 ---
 layout: post
 title: Mortgage Loan Pipeline Risk & Prioritization Dashboard
-image: "/posts/pipeline_dashboard_thumb.png"
+image: "/img/posts/pipeline_dashboard_thumb.png"
 tags: [Tableau, SQL, Data Analytics, Mortgage]
 ---
 
 This project provides an operational view of a mortgage loan pipeline, helping underwriting teams identify risk, prioritize work, and manage loan flow across stages.
 
-![Mortgage Pipeline Dashboard](/img/posts/pipeline_dashboard.png)
+<img src="/img/posts/your-new-image.png" 
+     style="width:100%; max-height:500px; object-fit:cover; border-radius:6px;">
 
 ## Business Problem
 
