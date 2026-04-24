@@ -4,24 +4,27 @@ layout: default
 
 <div class="container">
 
- <div style="max-width: 900px; margin: 60px auto 20px auto; text-align: center; color: #ccc; font-size: 16px; line-height: 1.8;">
-  <p><strong>My work focuses on analyzing mortgage and financial data to move from insight to action:</strong></p>
+  <div style="max-width: 900px; margin: 60px auto 20px auto; text-align: center; color: #ccc; font-size: 16px; line-height: 1.8;">
+    <p><strong>My work focuses on analyzing mortgage and financial data to move from insight to action:</strong></p>
 
-  <p style="margin-top: 10px;">
-    • Identifying trends in loan performance<br>
-    • Understanding drivers behind approval outcomes<br>
-    • Building tools to support operational decision-making and prioritization
-  </p>
-</div>
+    <p style="margin-top: 10px;">
+      • Identifying trends in loan performance<br>
+      • Understanding drivers behind approval outcomes<br>
+      • Building tools to support operational decision-making and prioritization
+    </p>
+  </div>
 
-  <div class="row">
-    <div class="col col-12 col-t-12">
-      <div class="row">
-        {% for post in paginator.posts %}
-          {% include post-card.html %}
-        {% endfor %}
+  <div style="max-width: 1000px; margin: 0 auto;">
+    <div class="row">
+      <div class="col col-12 col-t-12">
+        <div class="row">
+          {% for post in paginator.posts %}
+            {% include post-card.html %}
+          {% endfor %}
+        </div>
+        {% include pagination.html %}
       </div>
-      {% include pagination.html %}
     </div>
   </div>
+
 </div>
