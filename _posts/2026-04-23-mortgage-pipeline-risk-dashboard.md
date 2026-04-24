@@ -7,6 +7,8 @@ tags: [Tableau, SQL, Data Analytics, Mortgage]
 
 This project provides an operational view of a mortgage loan pipeline, helping underwriting teams identify risk, prioritize work, and manage loan flow across stages.
 
+![Mortgage Pipeline Dashboard](/img/posts/pipeline_dashboard.png)
+
 ## Business Problem
 
 Underwriting teams need to quickly identify which loans require immediate attention while still managing overall pipeline volume efficiently.
