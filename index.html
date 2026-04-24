@@ -1,15 +1,26 @@
 ---
 layout: default
 ---
+
 <div class="container">
-    <div class="row">
-        <div class="col col-12 col-t-12">
-            <div class="row">
-                {% for post in paginator.posts %}
-                    {% include post-card.html %}
-                {% endfor %}
-            </div>
-            {% include pagination.html %}
-        </div>
+
+  <div style="max-width: 900px; margin: 40px auto; text-align: left; color: #ccc; font-size: 16px; line-height: 1.6;">
+    <p><strong>My work focuses on analyzing mortgage and financial data to move from insight to action:</strong></p>
+    <ul>
+      <li>Identifying trends in loan performance</li>
+      <li>Understanding drivers behind approval outcomes</li>
+      <li>Building tools to support operational decision-making and prioritization</li>
+    </ul>
+  </div>
+
+  <div class="row">
+    <div class="col col-12 col-t-12">
+      <div class="row">
+        {% for post in paginator.posts %}
+          {% include post-card.html %}
+        {% endfor %}
+      </div>
+      {% include pagination.html %}
     </div>
+  </div>
 </div>
