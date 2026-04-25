@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="container">
+
+  <div style="max-width: 900px; margin: 60px auto 40px auto;">
+
+    <h1 style="margin-bottom: 10px;">{{ page.title }}</h1>
+
+    <div style="margin-bottom: 20px;">
+      {% for tag in page.tags %}
+        <span style="border:1px solid #00bfa5; color:#00d6b4; padding:4px 8px; margin-right:6px; font-size:12px;">
+          {{ tag }}
+        </span>
+      {% endfor %}
+    </div>
+
+    {{ content }}
+
+  </div>
+
+</div>
