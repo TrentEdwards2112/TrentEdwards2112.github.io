@@ -47,7 +47,7 @@ The dashboard provides a clear view of approval trends across borrower segments,
 
 <div style="width:100%; height:850px;">
   <iframe 
-    src="https://public.tableau.com/views/MortgageLoanApprovalAnalysis/Dashboard1"
+    src="https://public.tableau.com/views/MortgageLoanApprovalAnalysis/Dashboard1?:embed=y&:showVizHome=no&:display_count=y"
     width="100%" 
     height="100%" 
     frameborder="0">
