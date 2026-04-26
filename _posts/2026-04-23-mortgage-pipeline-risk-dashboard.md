@@ -8,11 +8,13 @@ tags: [Tableau, SQL, Data Analytics, Mortgage]
 <img src="/img/posts/your-new-image.png" 
      style="width:100%; height:auto; display:block; margin:20px auto 30px auto; border-radius:6px;">
 
-This project simulates a real-world underwriting workflow, using loan pipeline data to identify risk, prioritize time-sensitive loans, and improve operational decision-making across processing stages.
+This project simulates a real-world underwriting workflow using loan pipeline data to identify risk, prioritize time-sensitive loans, and improve operational decision-making.
+
 
 ## Business Problem
 
 Underwriting teams must identify high-risk and time-sensitive loans while maintaining steady pipeline throughput. Without clear visibility into risk drivers and bottlenecks, teams struggle to prioritize effectively and meet critical deadlines.
+
 
 ## What This Dashboard Answers
 
@@ -21,14 +23,17 @@ Underwriting teams must identify high-risk and time-sensitive loans while mainta
 - Which loans require immediate prioritization?
 - Where are operational bottlenecks forming?
 
+
 ## Key Insight
 
 Aging pipeline loans drive the majority of workload, while LE Past Due loans represent the highest immediate operational risk—highlighting the need to balance volume management with time-sensitive prioritization.
+
 
 ## Tools Used
 
 - SQL (MySQL): data cleaning, transformation, and feature creation  
 - Tableau Public: dashboard development and data visualization  
+
 
 ## Approach
 
@@ -37,11 +42,13 @@ Aging pipeline loans drive the majority of workload, while LE Past Due loans rep
 - Designed Tableau visualizations to surface risk concentration, identify urgency drivers, and highlight operational bottlenecks  
 - Structured the dashboard to reflect real-world underwriting priorities and decision-making workflows  
 
+
 ## Dashboard Overview
 
-The dashboard provides a centralized view of loan volume, risk distribution, and urgency drivers, enabling underwriting teams to quickly assess pipeline health and prioritize actions.
+The dashboard provides a centralized view of loan volume, risk distribution, and urgency drivers, enabling teams to assess pipeline health and prioritize actions. This approach mirrors real-world pipeline reporting used to manage risk, optimize workload, and improve operational efficiency.
 
 ![Dashboard](/img/posts/pipeline_dashboard.png)
+
 
 ## Live Dashboard
 
