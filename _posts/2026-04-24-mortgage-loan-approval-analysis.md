@@ -5,7 +5,7 @@ image: "/img/posts/mortgage_approval_dashboard.png"
 tags: [SQL, Tableau, Data Analytics, Mortgage]
 ---
 
-<img src="/img/posts/mortgage_approval_dashboard.png" 
+<img src="/img/posts/mortgage_approval__full_dashboard.png" 
      style="width:100%; height:auto; display:block; margin:20px auto 30px auto; border-radius:6px;">
 
 This project analyzes mortgage loan application data to identify trends in approval outcomes and understand the factors influencing loan decisions.
