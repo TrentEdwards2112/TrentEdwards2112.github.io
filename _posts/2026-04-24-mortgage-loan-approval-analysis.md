@@ -54,7 +54,7 @@ The dashboard provides a clear view of approval trends across borrower segments,
   </iframe>
 </div>
 
-[View Full Screen on Tableau Public](https://public.tableau.com/views/MortgageLoanApprovalAnalysis/Dashboard1)
+[View Full Screen on Tableau Public](https://public.tableau.com/views/MortgageLoanApprovalAnalysis_17756756057450/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ## GitHub Repository
 
