@@ -41,7 +41,7 @@ Higher income levels and smaller loan sizes are associated with increased approv
 
 The dashboard provides a clear view of approval trends across borrower segments, enabling comparison of approval rates by income, loan size, and geographic distribution.
 
-![Dashboard](/img/posts/mortgage_approval_dashboard.png)
+![Dashboard](/img/posts/mortgage_approval_full_dashboard.png)
 
 ## Live Dashboard
 
