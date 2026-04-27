@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Mortgage Loan Approval Analysis
-image: "/img/posts/mortgage_approval_dashboard.png"
+image: "/img/posts/Mortgage_approval_full_dashboard.png"
 tags: [SQL, Tableau, Data Analytics, Mortgage]
 ---
 
