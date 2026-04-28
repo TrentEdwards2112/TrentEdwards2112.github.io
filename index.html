@@ -2,8 +2,7 @@
 layout: default
 ---
 
-<div style="background: linear-gradient(to bottom, #0b0d10, #1a1f26); padding-bottom: 20px;">
-  <div class="container">
+<div class="container">
 
   <div style="max-width: 900px; margin: 20px auto 20px auto; text-align: center; color: #ccc; font-size: 16px; line-height: 1.8;">
     <p><strong>My work focuses on analyzing mortgage and financial data to move from insight to action:</strong></p>
@@ -16,16 +15,17 @@ layout: default
   </div>
 
   <div style="width:80px; height:2px; background:#00bfa5; margin:20px auto 20px auto;"></div>
+
   <h2 style="text-align:center; color:#fff; margin:0 auto 10px auto;">Featured Projects</h2>
 
-<p style="text-align:center; color:#ccc; margin:0 auto 30px auto;">
-  Mortgage analytics projects focused on approval trends, pipeline risk, and operational decision-making.
-</p>
+  <p style="text-align:center; color:#ccc; margin:0 auto 30px auto;">
+    Mortgage analytics projects focused on approval trends, pipeline risk, and operational decision-making.
+  </p>
+
   <div class="row" style="display: flex; justify-content: center;">
     {% for post in site.posts %}
       {% include post-card.html %}
-        {% endfor %}
+    {% endfor %}
   </div>
 
-  </div>
 </div>
