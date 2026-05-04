@@ -3,6 +3,7 @@ layout: post
 title: Mortgage Loan Pipeline Risk & Prioritization Dashboard
 image: "/img/posts/pipeline_dashboard_thumb.png"
 tags: [Tableau, SQL, Data Analytics, Mortgage]
+excerpt: "Identifies high-risk loans and prioritization gaps to support time-sensitive and compliance-driven underwriting decisions."
 ---
 
 <img src="/img/posts/your-new-image.png" 
