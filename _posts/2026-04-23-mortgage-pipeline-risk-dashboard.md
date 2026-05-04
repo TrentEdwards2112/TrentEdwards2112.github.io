@@ -8,7 +8,7 @@ tags: [Tableau, SQL, Data Analytics, Mortgage]
 <img src="/img/posts/your-new-image.png" 
      style="width:100%; height:auto; display:block; margin:20px auto 30px auto; border-radius:6px;">
 
-This project simulates a real-world underwriting workflow using loan pipeline data to identify risk, prioritize time-sensitive loans, and improve operational decision-making.
+Simulates a real-world underwriting environment to identify high-risk loans, surface prioritization gaps, and help teams focus on time-sensitive and compliance-driven work.
 
 
 ## Business Problem
@@ -26,7 +26,7 @@ Underwriting teams must identify high-risk and time-sensitive loans while mainta
 
 ## Key Insight
 
-Aging pipeline loans drive the majority of workload, while LE Past Due loans represent the highest immediate operational risk—highlighting the need to balance volume management with time-sensitive prioritization.
+Aging loans drive the majority of pipeline workload, while LE Past Due loans represent the highest immediate risk—highlighting the need to balance volume management with time-sensitive prioritization.
 
 
 ## Tools Used
