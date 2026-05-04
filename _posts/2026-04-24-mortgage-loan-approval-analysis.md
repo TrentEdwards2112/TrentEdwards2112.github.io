@@ -8,11 +8,11 @@ tags: [SQL, Tableau, Data Analytics, Mortgage]
 <img src="/img/posts/mortgage_approval_hero.png"
      style="width:100%; height:auto; display:block; margin:20px auto 30px auto; border-radius:6px;">
 
-This project analyzes mortgage loan application data to identify trends in approval outcomes and understand the factors influencing loan decisions.
+Analyzes mortgage loan data to uncover key drivers of approval outcomes, identifying how borrower characteristics and loan size influence lending decisions.
 
 ## Business Problem
 
-Lenders must evaluate large volumes of loan applications while balancing risk and approval rates. Without clear insight into approval patterns and contributing factors, it becomes difficult to identify trends and make data-informed decisions.
+Lenders must evaluate large volumes of loan applications while balancing risk and approval rates. Without clear visibility into what drives approvals and denials, decision-making becomes inconsistent and harder to optimize.
 
 ## What This Analysis Answers
 
@@ -23,16 +23,18 @@ Lenders must evaluate large volumes of loan applications while balancing risk an
 
 ## Key Insight
 
-Higher income levels and smaller loan sizes are associated with increased approval rates, while larger loan amounts show a declining approval trend—highlighting risk sensitivity in lending decisions.
+Higher income borrowers show significantly higher approval rates, while larger loan sizes are associated with increased denial rates—highlighting clear segmentation in lending risk. Approval rates range from ~72% for high-income borrowers to ~32% for low-income borrowers, demonstrating a meaningful disparity in approval likelihood.
+
+This analysis provides a practical framework for understanding borrower risk profiles and supports more consistent, data-driven lending decisions.
 
 ## Tools Used
 
-- SQL (MySQL): data cleaning, transformation, and aggregation  
-- Tableau Public: dashboard development and data visualization  
+- SQL (MySQL): data cleaning, transformation, and feature creation  
+- Tableau: dashboard development and visualization  
 
 ## Approach
 
-- Cleaned and standardized raw loan data using SQL  
+- Cleaned and standardized raw loan data using SQL (MySQL) 
 - Created derived fields including income bands and loan size categories  
 - Calculated approval rates across multiple dimensions (income, loan size, region)  
 - Designed Tableau visualizations to highlight trends and relationships in approval outcomes  
