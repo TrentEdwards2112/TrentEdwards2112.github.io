@@ -3,6 +3,7 @@ layout: post
 title: Mortgage Loan Approval Analysis
 image: "/img/posts/mortgage_approval_dashboard.png"
 tags: [SQL, Tableau, Data Analytics, Mortgage]
+excerpt: "Analyzes mortgage data to uncover key drivers of approval outcomes and borrower risk segmentation."
 ---
 
 <img src="/img/posts/mortgage_approval_hero.png"
