@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Pipeline Bottleneck Analysis
-image: "/img/posts/pipeline-bottleneck-analysis-thumbnail.png"
+image: "/img/posts/pipeline_bottleneck_thumb.png"
 tags: [SQL, Tableau, Data Analytics, Mortgage]
 excerpt: "Extension analysis focused on identifying operational bottlenecks and aging patterns within the mortgage underwriting pipeline."
 ---
