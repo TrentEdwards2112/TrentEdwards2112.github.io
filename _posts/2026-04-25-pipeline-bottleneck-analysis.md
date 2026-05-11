@@ -44,7 +44,7 @@ This extension analysis demonstrates how operational reporting can move beyond p
 
 ## Dashboard Overview
 
-<img src="/img/posts/pipeline-bottleneck-analysis-thumbnail.png"
+<img src="/img/posts/pipeline_bottleneck_thumb.png"
      style="width:100%; height:auto; display:block; margin:20px auto 30px auto; border-radius:6px;">
 
 ---
@@ -53,32 +53,10 @@ This extension analysis demonstrates how operational reporting can move beyond p
 
 Explore the interactive Tableau dashboard used in this operational bottleneck extension analysis.
 
-<a href="https://public.tableau.com/views/PipelineBottleneckAnalysisExtensionStudy/PipelineBottleneckAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link"
-   target="_blank"
-   style="display:inline-block;
-          background:#00bfa5;
-          color:#111;
-          padding:12px 20px;
-          border-radius:6px;
-          text-decoration:none;
-          font-weight:bold;
-          margin-top:10px;">
-View Full Dashboard on Tableau Public
-</a>
+[View Full Dashboard on Tableau Public](https://public.tableau.com/views/PipelineBottleneckAnalysisExtensionStudy/PipelineBottleneckAnalysis?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 ---
 
 ## GitHub Repository
 
-<a href="https://github.com/TrentEdwards2112"
-   target="_blank"
-   style="display:inline-block;
-          background:#222;
-          color:#fff;
-          padding:12px 20px;
-          border-radius:6px;
-          text-decoration:none;
-          border:1px solid #00bfa5;
-          margin-top:10px;">
-View GitHub Repository
-</a>
+[View GitHub Repository](https://github.com/TrentEdwards2112)
