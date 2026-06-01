@@ -10,7 +10,7 @@ plugins:
 # General Site Settings
 title: Trent Edwards
 description: >
-   Operations Analyst with a background in mortgage operations, underwriting support, workflow reporting, and operational prioritization. Using SQL, Tableau, Excel, and AI-assisted workflows to analyze operational processes, identify bottlenecks, improve workflow visibility, and support data-informed decision-making.
+  Operations Analyst with a background in mortgage operations, underwriting support, workflow reporting, and operational prioritization. I use SQL, Tableau, Excel, and AI-assisted workflows to analyze operational processes, identify bottlenecks, improve workflow visibility, and support data-informed decision-making.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
